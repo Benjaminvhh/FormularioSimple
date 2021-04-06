@@ -1,0 +1,24 @@
+ul{
+    list-style-type:none;
+}
+form{
+    width:25%;
+    margin:20px;
+    padding:20px;
+    
+}
+fieldset{
+    border: 1px solid blueviolet;
+    background: radial-gradient(ellipse, rgba(176,174,238,1) 0%, rgba(29,30,31,1));
+}
+label{
+    font-size:12px;
+    
+    width:100%;
+}
+textArea{
+    width:100%;
+}
+#mensaje{
+    display:none;
+}
