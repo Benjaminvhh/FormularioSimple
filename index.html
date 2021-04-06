@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='css/styles.css'>
+    
+    
+
+</head>
+
+<body>
+    <div id="mensaje"></div>
+    <form id="form"  method="post">
+        <ul>
+            <fieldset>
+                <li>
+                     <label for="nombre">Nombre:</label>
+                     <input type="text" placeholder="Nombre" name="nombre" id="nombre" required="true">
+                </li>
+                     <br>
+                     <li>
+                     <label for="apellidos">Apellidos:</label>
+                     <input type="text" placeholder="Apellidos" name="apellidos" id="apellidos" required="true">
+                </li>
+                     <br>
+                     <li>
+                     <label for="rut">RUT:</label>
+                     <input type="text" placeholder="RUT" name="rut" id="rut" required="true">
+                </li>
+                      <br>
+                <li>
+                     <label for="correo">Correo Electrónico:</label>
+                     <input type="email" placeholder="Correo Electrónico" name="correo" id="correo" required="true">
+                </li>
+                     <br>
+                <li>
+                     <label for="movil">Teléfono Móvil:</label>
+                     <input type="tel" pattern="[0-9]+" placeholder="Teléfono Móvil" name="movil" id="movil" required="true" maxlength="9" >
+                </li>
+                     <br>
+                <li>
+                     <input type="checkbox" id="python"> Python
+                     <input type="checkbox" id="java"> Java
+                     <input type="checkbox" id="ts"> TypeScript
+                     <input type="checkbox" id="php"> PHP
+                     <input type="checkbox" id="c"> C#
+                     <input type="checkbox" id="cpp"> C++
+                </li>
+                     <br>
+                <li>
+                     <input type="range" name="conocimiento" id="conocimiento" required="true">
+                </li>
+                     <br>
+                <li>
+                     <input type="radio" id="1" name="nivel" value="1">
+                     <label for="1">1</label>
+                     <input type="radio" id="2" name="nivel" value="2">
+                     <label for="2">2</label>
+                     <input type="radio" id="3" name="nivel" value="3">
+                     <label for="3">3</label>
+                     <input type="radio" id="4" name="nivel" value="4">
+                     <label for="4">4</label>
+                     <input type="radio" id="5" name="nivel" value="5">
+                     <label for="5">5</label>
+                </li>
+                    <br>
+                <li>
+                     <textarea name="info" placeholder="Acerca de Usted" id="info" maxlength="300" required="true"></textarea>
+                </li>
+                     <br>
+                <li>
+                     <input type="submit" value="Enviar Datos" id="enviar">
+                     <input type="button" value="Limpiar Datos" id="limpiar">
+                     
+                </li>
+            </fieldset>
+       </ul>
+    </form>
+    <script src="js/tarea2.js" async defer></script>
+</body>
+
+</html>
